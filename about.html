@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Vaidehi Patel | Interior & Spatial Designer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="about-page">
+    
+    <!-- Site Preloader (Pacman "Warming up the crayons...") -->
+    <div class="site-preloader" id="sitePreloader">
+        <div class="pacman-loader-wrapper">
+            <div class="pacman-mouth">
+                <div class="pacman-top"></div>
+                <div class="pacman-bottom"></div>
+            </div>
+            <div class="pacman-dots-track">
+                <div class="pacman-dots-stream">
+                    <div class="pacman-dot"></div>
+                    <div class="pacman-dot"></div>
+                    <div class="pacman-dot"></div>
+                    <div class="pacman-dot"></div>
+                    <div class="pacman-dot"></div>
+                    <div class="pacman-dot"></div>
+                    <div class="pacman-dot"></div>
+                    <div class="pacman-dot"></div>
+                </div>
+            </div>
+        </div>
+        <div class="preloader-text">Warming up the crayons...</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- Navigation -->
+    <nav class="top-nav">
+        <div class="nav-location-pin">
+            <svg width="14" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.5"/>
+            </svg>
+            <span style="color: var(--dark);">AHMEDABAD, INDIA</span>
+        </div>
+
+        <div class="floating-nav-pill">
+            <a href="index.html#hero" class="pill-avatar" aria-label="Go to homepage">
+                <img src="images/avatar.jpg" alt="Vaidehi Patel Profile">
+            </a>
+            <div class="pill-links">
+                <a href="index.html#work">Work</a>
+                <a href="about.html" class="active">About</a>
+                <a href="#playground">Playground</a>
+            </div>
+            <button type="button" class="pill-btn" id="openContactNavBtn" aria-label="Work with me">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                <span>Work with me</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MAIN ABOUT PAGE CONTENT -->
+    <main class="about-page-wrapper">
+        <div class="about-page-container">
+            
+            <!-- Hero Header -->
+            <header class="about-hero-header">
+                <div class="hero-eyebrow">
+                    <span class="yellow-dot"></span>
+                    <span class="eyebrow-text">INTERIOR & SPATIAL DESIGNER</span>
+                </div>
+                <h1 class="about-main-headline">
+                    Designing spaces that honor human ritual, tactile craft, and natural light.
+                </h1>
+                <p class="about-lead-intro">
+                    "I trained to build spaces. Now I design experiences people actually want to inhabit."
+                </p>
+            </header>
+
+            <!-- Profile Narrative Grid -->
+            <div class="about-profile-grid">
+                <!-- Left: Portrait Frame -->
+                <div class="about-portrait-card">
+                    <div class="portrait-frame">
+                        <img src="images/about-portrait.jpg" alt="Vaidehi Patel Portrait">
+                    </div>
+                    <div class="portrait-caption">
+                        <span>Vaidehi Patel</span>
+                        <span class="badge-pill">Ahmedabad, India</span>
+                    </div>
+                </div>
+
+                <!-- Right: Bio Story -->
+                <div class="about-bio-column">
+                    <p class="bio-paragraph">
+                        <strong>Seven semesters deep into interior architecture,</strong> my practice is grounded in the conviction that great spatial design is felt before it is understood. Architecture is not an abstract exercise in geometry—it is the envelope in which human memory, touch, and calm unfold.
+                    </p>
+                    <p class="bio-paragraph">
+                        Based in <strong>Ahmedabad, Gujarat</strong>—a city celebrated for its historic courtyards, stone stepwells, and modernist landmarks—I draw daily inspiration from vernacular craftsmanship while articulating clean, contemporary spatial languages.
+                    </p>
+                    <p class="bio-paragraph">
+                        From historic adaptive reuse hospitality at <strong>R C College of Commerce</strong> to interactive child-centered spaces like <strong>Jungle Gym</strong> and sculptural helical circulation, every project begins with an intensive material inquiry. I balance solar orientations, natural cross-ventilation, and authentic tactile surfaces—lime plaster, woven cane, reclaimed timber, and local sandstone—creating spaces that age with grace.
+                    </p>
+                    <p class="bio-paragraph">
+                        Beyond physical planning, I immerse myself in computational modeling, lighting studies, and furniture detailing, ensuring that grand concepts translate effortlessly into precise construction documentation and lived tranquility.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Centerpiece Quote -->
+            <div class="about-quote-banner" id="playground">
+                <blockquote>"God is in the details."</blockquote>
+                <cite>— Ludwig Mies van der Rohe</cite>
+            </div>
+
+            <!-- Design Pillars / Philosophy -->
+            <section class="about-philosophy-section">
+                <div class="about-section-heading">
+                    <h2>Design Philosophy & Pillars</h2>
+                    <p>Core principles that guide every interior layout, material selection, and detail.</p>
+                </div>
+
+                <div class="about-pillars-grid">
+                    <div class="pillar-card">
+                        <div class="pillar-num">01 / TACTILITY</div>
+                        <h3>Material Honesty</h3>
+                        <p>Celebrating raw textures, natural stones, unsealed woods, and artisanal finishes that tell an authentic regional story.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-num">02 / BIOPHILIA</div>
+                        <h3>Light & Atmosphere</h3>
+                        <p>Harnessing changing diurnal solar angles, air currents, and living vegetation to foster emotional wellness and serenity.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-num">03 / HUMAN SCALE</div>
+                        <h3>Lived Inhabitation</h3>
+                        <p>Designing sequences of movement around intuitive human rituals—how someone wakes, gathers, reads, and unwinds.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-num">04 / SYNTHESIS</div>
+                        <h3>Heritage Meets Modern</h3>
+                        <p>Fusing Indian vernacular spatial warmth with minimal contemporary discipline and high-efficiency detailing.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer & Interactive Garden -->
+        <footer class="footer" id="contact">
+            <h2 class="footer-heading" id="openContactFooter" role="button" tabindex="0">Let's build together.</h2>
+            <a href="mailto:pvaidehi3104@gmail.com" class="email-link">pvaidehi3104@gmail.com</a>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/vaidehi-patel-580295420" target="_blank" rel="noopener noreferrer">LinkedIn <span class="social-arrow">&#8599;</span></a>
+                <a href="https://www.behance.net/vaidehipatel45" target="_blank" rel="noopener noreferrer">Behance <span class="social-arrow">&#8599;</span></a>
+                <a href="https://www.instagram.com/vaidehi__314?dlrf=MTZ5b2NodXdnaDl4Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram <span class="social-arrow">&#8599;</span></a>
+            </div>
+
+            <!-- Interactive Full-Width "Click to Grow" Flower Garden (Zainab Kabira Style) -->
+            <div class="garden-interactive-section" id="interactiveGarden">
+                <div class="garden-landscape" id="gardenLandscape">
+                    <!-- Sprouted flowers layer -->
+                    <div class="sprouted-flowers-layer" id="sproutedFlowersLayer"></div>
+                    
+                    <!-- Organic Rolling Soil Hills SVG Baseline -->
+                    <div class="soil-hills-svg-container">
+                        <svg viewBox="0 0 1440 220" preserveAspectRatio="none" class="soil-hills-svg">
+                            <path d="M0,130 C200,170 380,90 600,140 C820,190 1020,110 1220,150 C1350,175 1400,140 1440,130 L1440,220 L0,220 Z" fill="#1d1d1d" />
+                            <path d="M0,170 C180,120 420,180 700,135 C980,90 1180,165 1440,120 L1440,220 L0,220 Z" fill="#121212" opacity="0.9" />
+                            <path d="M0,130 C200,170 380,90 600,140 C820,190 1020,110 1220,150 C1350,175 1400,140 1440,130" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.9" />
+                            <path d="M0,170 C180,120 420,180 700,135 C980,90 1180,165 1440,120" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.4" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Custom Pink Watering Can & CLICK TO GROW Pointer -->
+                <div class="zainab-watering-cursor" id="zainabWateringCursor">
+                    <div class="watering-can-icon">
+                        <svg viewBox="0 0 64 64" width="40" height="40">
+                            <path d="M14 30 C14 20, 24 18, 34 18 C44 18, 48 24, 48 34 C48 42, 42 46, 34 46 C24 46, 14 42, 14 30 Z" fill="#e88a80" stroke="#b04c42" stroke-width="2"/>
+                            <path d="M16 26 C6 24, 4 38, 16 42" fill="none" stroke="#b04c42" stroke-width="3.5" stroke-linecap="round"/>
+                            <path d="M44 26 L56 16 L58 20 L46 32 Z" fill="#e88a80" stroke="#b04c42" stroke-width="1.5"/>
+                            <polygon points="54,12 62,18 58,22 50,16" fill="#f4c478" stroke="#b04c42" stroke-width="1.5"/>
+                            <circle cx="56" cy="16" r="1" fill="#b04c42"/>
+                            <circle cx="58" cy="18" r="1" fill="#b04c42"/>
+                        </svg>
+                    </div>
+                    <span class="click-to-grow-text">CLICK TO GROW</span>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Full-Page Interactive Project Inquiry Modal -->
+    <div class="project-inquiry-modal" id="contactInquiryModal" aria-hidden="true" role="dialog" aria-labelledby="modalHeading">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-window">
+            <!-- Modal Top Header -->
+            <div class="modal-top-bar">
+                <div class="modal-brand">
+                    <span class="yellow-dot"></span>
+                    <span>VAIDEHI PATEL — PROJECT INQUIRY</span>
+                </div>
+                <button type="button" class="modal-close-btn" id="closeContactModal" aria-label="Close inquiry form">
+                    <span>Close</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Scrollable Content Area -->
+            <div class="modal-content-scroll">
+                <div class="modal-header">
+                    <span class="modal-eyebrow">LET'S BUILD TOGETHER</span>
+                    <h2 id="modalHeading" class="modal-title">Tell me about your space & vision.</h2>
+                    <p class="modal-subtitle">
+                        Have a residential interior, commercial atmosphere, or spatial pavilion in mind? 
+                        Share your project details below and I'll get back to you within 24–48 hours.
+                    </p>
+                </div>
+
+                <!-- Form Section -->
+                <form class="inquiry-form" id="projectInquiryForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="clientName">Your Name <span class="req">*</span></label>
+                            <input type="text" id="clientName" name="name" required placeholder="e.g. Maya Sharma">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="clientEmail">Email Address <span class="req">*</span></label>
+                            <input type="email" id="clientEmail" name="email" required placeholder="e.g. maya@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="clientPhone">Phone / WhatsApp</label>
+                            <input type="tel" id="clientPhone" name="phone" placeholder="+91 98765 43210">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="projectLocation">Project Location / City</label>
+                            <input type="text" id="projectLocation" name="location" placeholder="e.g. Ahmedabad, Mumbai, Remote">
+                        </div>
+                    </div>
+
+                    <!-- Project Scope Selection Chips -->
+                    <div class="form-group-full">
+                        <label>Project Scope / Type</label>
+                        <div class="project-type-chips">
+                            <label class="chip">
+                                <input type="checkbox" name="projectType" value="Residential Interior">
+                                <span>🏡 Residential Interior</span>
+                            </label>
+                            <label class="chip">
+                                <input type="checkbox" name="projectType" value="Commercial & Hospitality">
+                                <span>☕ Commercial & Hospitality</span>
+                            </label>
+                            <label class="chip">
+                                <input type="checkbox" name="projectType" value="Spatial Experience">
+                                <span>✨ Spatial Experience</span>
+                            </label>
+                            <label class="chip">
+                                <input type="checkbox" name="projectType" value="Biophilic Exhibition">
+                                <span>🌿 Biophilic / Exhibition</span>
+                            </label>
+                            <label class="chip">
+                                <input type="checkbox" name="projectType" value="3D Visualization">
+                                <span>📐 3D Visualization & Modeling</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Timeline & Budget Grid -->
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="projectTimeline">Expected Timeline</label>
+                            <select id="projectTimeline" name="timeline">
+                                <option value="">Select timeframe...</option>
+                                <option value="Immediately (Within 1 month)">Immediately (Within 1 month)</option>
+                                <option value="1–3 Months">1–3 Months</option>
+                                <option value="3–6 Months">3–6 Months</option>
+                                <option value="Flexible / Exploring Ideas">Flexible / Exploring Ideas</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="projectBudget">Estimated Budget Range</label>
+                            <select id="projectBudget" name="budget">
+                                <option value="">Select budget range...</option>
+                                <option value="Under ₹5 Lakhs / Exploring">Under ₹5 Lakhs / Exploring</option>
+                                <option value="₹5 – ₹15 Lakhs">₹5 – ₹15 Lakhs</option>
+                                <option value="₹15 – ₹35 Lakhs">₹15 – ₹35 Lakhs</option>
+                                <option value="₹35+ Lakhs">₹35+ Lakhs</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Project Message / Vision -->
+                    <div class="form-group-full">
+                        <label for="projectMessage">Tell me about your project & vision <span class="req">*</span></label>
+                        <textarea id="projectMessage" name="message" rows="4" required placeholder="Describe your site, layout requirements, aesthetic inspirations, or what feelings you want the space to evoke..."></textarea>
+                    </div>
+
+                    <!-- Actions & Fallback -->
+                    <div class="form-actions">
+                        <button type="submit" class="submit-inquiry-btn" id="submitInquiryBtn">
+                            <span>Submit Project Inquiry</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                        <p class="direct-email-note">
+                            Prefer direct email? Write to <a href="mailto:pvaidehi3104@gmail.com">pvaidehi3104@gmail.com</a>
+                        </p>
+                    </div>
+                </form>
+
+                <!-- Success State Screen (shown on submit) -->
+                <div class="form-success-state" id="formSuccessState" style="display: none;">
+                    <div class="success-icon">🌻</div>
+                    <h3>Thank you for reaching out!</h3>
+                    <p>Your inquiry has been received. I'll review your project details and get back to you within 24–48 hours.</p>
+                    <button type="button" class="close-success-btn" id="closeSuccessBtn">Return to Portfolio</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
